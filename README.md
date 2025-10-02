@@ -75,7 +75,18 @@ This project is built with:
 
 ## How can I deploy this project?
 
-We are gonna find out
+First in Github Pages
+
+```sh
+# Step 1: this command creates a dist directory
+nvm run build
+
+# Step 2: if u dont already have it to deploy your dist
+npm install gh-pages --save-dev
+
+# Step 3: deploy it babygirl
+npm run deploy
+```
 
 ## What's next?
 
@@ -85,25 +96,23 @@ We'll see :D
 
 # nvm installieren (falls nicht vorhanden)
 
+```sh
+
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 # dann Terminal neu starten oder:
-
 source ~/.nvm/nvm.sh
 
 # Node LTS Version installieren (z. B. 20.x)
-
 nvm install --lts
 nvm use --lts
 
 # Dependencies installieren (im Projektordner):
-
 npm install
 
 # Projekt starten (lokal entwickeln):
-
 npm run dev
-
-oder manchmal:
-
+`
+# oder manchmal:
 npm start
+```
