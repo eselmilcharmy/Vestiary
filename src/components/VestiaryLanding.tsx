@@ -86,7 +86,7 @@ export const VestiaryLanding = () => {
       heroTitle: "Ihre Garderobe,",
       heroSubtitle: "neu gedacht",
       heroDescription: "Die intelligente Kleiderschrank-App, die Ihnen hilft, atemberaubende Outfits zu kreieren, Ihre Kleidung zu organisieren und Ihren perfekten Stil zu entdecken.",
-      emailPlaceholder: "Geben Sie Ihre E-Mail-Adresse ein",
+      emailPlaceholder: "Ihre E-Mail",
       notifyMe: "Benachrichtigen",
       joinText: "Schließen Sie sich 5.000+ Mode-Enthusiasten an, die auf den Launch warten",
       howItWorks: "Wie Vestiary funktioniert",
